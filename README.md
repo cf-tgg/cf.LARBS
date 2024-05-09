@@ -5,8 +5,8 @@
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
-sh larbs.sh
+curl -LO https://raw.githubusercontent.com/cf-tgg/cf.LARBS/master/static/larbs_frQC.sh
+sh larbs_frQC.sh
 ```
 
 That's it.
@@ -21,7 +21,7 @@ with a fully configured diving-board for work or more customization.
 
 ## Customization
 
-By default, LARBS uses the programs [here in progs.csv](static/progs.csv) and installs
+By default, LARBS uses the programs [here in progs_cfQC.csv](static/progs_cfQC.csv) and installs
 [my dotfiles repo (voidrice) here](https://github.com/lukesmithxyz/voidrice),
 but you can easily change this by either modifying the default variables at the
 beginning of the script or giving the script one of these options:
